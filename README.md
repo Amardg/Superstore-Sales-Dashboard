@@ -1,4 +1,4 @@
-# Comprehensive Superstore Sales and Forecasting Dashboard (Power BI)
+# Superstore Sales and Forecasting Dashboard (Power BI)
 
 ## Project Overview
 This project provides a detailed analysis of the Superstore Sales dataset using Power BI, with a dual focus: historical performance tracking and short-term sales forecasting.
