@@ -1,26 +1,35 @@
-# Superstore Sales Dashboard & Forecast (Power BI)
+# Comprehensive Superstore Sales and Forecasting Dashboard (Power BI)
 
-## 📊 Overview
-An interactive Power BI dashboard analyzing sales, profit, and customer performance using the Superstore dataset — with **sales forecasting** integrated on the order date timeline.
+## Project Overview
+This project provides a detailed analysis of the Superstore Sales dataset using Power BI, with a dual focus: historical performance tracking and short-term sales forecasting.
 
-## 🧠 Objectives
-- Analyze sales & profit performance by region, category, and segment  
-- Identify top-performing areas and underperforming segments  
-- Forecast future sales trends using time-series analysis  
+The dashboard facilitates data-driven decision-making by segmenting sales and profit across critical business dimensions and offering a 15-day sales prediction.
 
-## ⚙️ Tools & Techniques
-- **Power BI**
-- **DAX** for calculated measures
-- **Forecasting Visualization** (built-in Power BI analytics pane)
-- **Excel** for data cleaning and preparation
+## Dashboard Previews
 
-## 💡 Key Insights
-- West region contributed the highest profit
-- Technology category is the top performer
-- Discounted orders show reduced margins
-- Forecasting suggests steady sales growth in the upcoming Days
+| Sales Performance Dashboard | Sales Forecasting Analysis |
+| :---: | :---: |
+| ![Main Dashboard View](Dashboard Preview.png) | ![Forecasting Model View](Forecasting Preview.png) |
 
-## 📁 Repository Contents
-- `Superstore.pbix` – Power BI Dashboard  
-- `Superstore.csv` – Dataset  
-- `dashboard_preview.png` – Dashboard Screenshot  
+## Key Analyses Included
+The dashboard covers the following dimensions of analysis, based on Sales and Profit:
+* **Geographic:** Sales by Region.
+* **Customer:** Sales by Segment.
+* **Product Hierarchy:** Sales by Category and Sub-Category.
+* **Logistics:** Sales by Ship Mode.
+* **Time Series:** Sales by Month, Profit by Month, and a combined Sales & Profit view.
+* **Predictive:** 15-Day Sales Forecasting.
+
+### Key Insights & Findings:
+Finding 1,: The West Region is a dominant revenue driver, but the Central Region consistently struggles with low Profit Ratio across all ship modes.
+Finding 2, : Despite high sales in the 'Technology' category, 'Office Supplies' often yields better month-over-month profit consistency.
+Finding 3 : The 15-day forecast indicates a slight upward sales trend for the next two weeks, with the 95% confidence interval showing a potential peak around day 10.
+
+## Technical Skills Demonstrated
+
+| Tool / Skill | Focus |
+| :--- | :--- |
+| **Power BI Desktop** | End-to-end report design, data visualization, and interactivity (slicers/filters). |
+| **DAX Measures** | Creation of explicit measures (e.g., `Profit Ratio`, Time Intelligence functions, etc.). |
+| **Power Query (M)** | Data transformation, cleaning, and preparation of the time series data for forecasting. |
+| **Time Series Forecasting** | Application of Power BI's built-in forecasting model to predict 15 days of future sales. |
